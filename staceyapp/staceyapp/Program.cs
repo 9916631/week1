@@ -19,7 +19,7 @@ namespace staceyapp
             Console.WriteLine("Please enter your name");
             name = Console.ReadLine();
 
-            Console.WriteLine(name + age);
+            Console.WriteLine("Name: " + name +"\nAge: "+ age);
             Console.ReadLine();
 
             string colour;
@@ -32,6 +32,12 @@ namespace staceyapp
 
             Console.WriteLine(colour + number);
             Console.ReadLine();
+
+            
+            Console.WriteLine("How many ps4's do you own??");
+            int numOfPS4 = int.Parse(Console.ReadLine());
+            
+
         }
 
     }

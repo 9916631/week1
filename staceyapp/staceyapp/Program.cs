@@ -19,8 +19,20 @@ namespace staceyapp
             Console.WriteLine("Please enter your name");
             name = Console.ReadLine();
 
-            Console.WriteLine(name, age);
+            Console.WriteLine(name + age);
+            Console.ReadLine();
+
+            string colour;
+            int number;
+
+            Console.WriteLine("what colour is your hair");
+            colour = Console.ReadLine();
+            Console.WriteLine("how many times do you die your hair");
+            number = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(colour + number);
             Console.ReadLine();
         }
+
     }
 }

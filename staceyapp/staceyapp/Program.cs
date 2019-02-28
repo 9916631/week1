@@ -36,7 +36,12 @@ namespace staceyapp
             
             Console.WriteLine("How many ps4's do you own??");
             int numOfPS4 = int.Parse(Console.ReadLine());
-            
+
+            \\ different type to do things
+            Console.WriteLine(fname "" + lname);
+            Console.WriteLine("{0} {1}", fname, lname);
+            Console.WriteLine($" {fname} {lname}");
+
 
         }
 
